@@ -1,0 +1,19 @@
+.img{
+    width: 100%;
+    height:30%;
+}
+.dialog{
+    width:80vw;
+    
+    
+}
+.imageBody img{
+    height: 20%;
+}
+.button{
+   position: absolute;
+    width: 4em;
+    bottom: 0;
+    margin-bottom: 1em;
+    
+}

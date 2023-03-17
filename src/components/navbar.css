@@ -1,0 +1,84 @@
+/* Mobile Devices */
+.generalNavbar {
+  background-color: #049cbd;
+  margin: 2.5% ;
+  border-radius: 7px;
+}
+.me-auto {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+a.nav-link {
+  color: antiquewhite;
+}
+.toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+.nav-link{
+  color:white;
+  text-decoration: none;
+
+}
+
+.parent{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.child-logo{
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.child-nav{
+  flex: 11;
+  width: 100%;
+}
+.child-logo img{
+  width: 60%;
+  height: 30%;
+
+}
+.brand-logo{
+  
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.brand-logo img{
+  width: 60px;
+  height: 50px;
+}
+
+
+/* Mobile */
+@media (max-width: 412px) {
+  .child-logo {
+    display: none;
+  }
+  .brand-logo img{
+    height: 40px;
+    width: 50px;
+  }
+}  
+
+/* IPAD SIZE DEVICES */
+@media (max-width: 768px) {
+  .child-logo {
+    display: none;
+  }
+
+}
+@media (min-width:769px) {
+  .navbar-brand{
+    display: none;
+  }
+}

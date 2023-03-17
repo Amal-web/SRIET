@@ -1,0 +1,11 @@
+.error{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+}
+.red-color{
+    color: #FF1E00;
+}

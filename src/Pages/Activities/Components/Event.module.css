@@ -1,0 +1,28 @@
+
+
+
+.eventPara p {
+  
+  margin: 3.688em 5.813em;
+  color: #ffffff;
+}
+
+@media (max-width:620px){
+  .event{
+  
+    font-size: 0.85rem;
+  }
+  .eventPara{
+      width:100vw;
+      font-size: 0.45rem;
+      padding: 0;
+      margin:0; 
+       
+  }
+  .eventPara p{
+    margin: 3em;
+   
+    
+  }
+  
+}

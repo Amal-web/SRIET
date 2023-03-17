@@ -1,0 +1,55 @@
+.container{
+    margin-top: 2em;
+    font-size: 1rem;
+}
+.container h2{
+    margin-left: 1.5em;
+}
+
+.card img{
+    margin-top: 2em;
+    width:100%;
+    height: 18.87em;
+    border-radius: 10px;
+}
+.card{
+    margin-left: 3em;
+    width:18%;
+    height: 16%;
+}
+.names{
+    font-size: 1rem;
+    margin-top: 2em;
+    width:100%;
+    text-align: center;
+    padding: 0.5em;
+}
+
+@media (max-width:650px){
+    .container h2{
+        margin-bottom: 0;
+    }
+   .container{
+    margin-bottom: 2em;
+   }
+    .card{
+        margin-top: 0;
+        margin-left:1.5em;
+        padding: 0;
+    }
+    
+    .card img{
+        margin-top: 1em;
+        width: 100%;
+        height: 5em;
+    }
+    .names{
+        font-size: 0.5rem;
+        
+        padding: 0.4em;
+    }
+    .names h4,p{
+        margin: 0;
+        font-size: 0.5rem;
+    }
+}

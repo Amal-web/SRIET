@@ -1,0 +1,52 @@
+.assistantProfessor h2{
+    margin-left: 1.5em;
+    
+
+}
+.apCards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+    padding: 1em;
+    justify-content: space-around;
+}
+.card img{
+    width:100%;
+    height: 18.87em;
+    border-radius: 10px;
+}
+.card{
+    width:18%;
+    height: 16%;
+}
+.names{
+    font-size: 1rem;
+    margin-top: 2em;
+    width:100%;
+    text-align: center;
+    padding: 0.5em;
+}
+
+@media (max-width:650px){
+    .assistantProfessor{
+        font-size: 0.6rem;
+    }
+    .apCards{
+        display: flex;
+        flex-wrap: wrap;
+    
+        width: 100%;
+    }
+    .apCards h4,p{
+        font-size: 0.5rem;
+    }
+    
+    .apCards img{
+        width: 100%;
+        height: 8.7em;
+    }
+    .names{
+        margin-top:0.7em ;
+        padding: 0.4em;
+    }
+}

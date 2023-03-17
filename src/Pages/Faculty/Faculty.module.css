@@ -1,0 +1,37 @@
+.container{
+    color: white;
+}
+.hodImage img{
+    width: 21.12%;
+    height: 25%;
+    box-shadow: 3px 2px 10px black;
+    margin-bottom: 1em;
+    
+}
+.hodImage h1{
+    margin-bottom: 1em;
+}
+.hodImage,.hodImage h1{
+    text-align: center;
+}
+.hodImage{
+    margin-top: 2em;
+}
+
+.hodContent{
+    
+    width: 90%;
+    margin: 2em auto;
+    font-size: 1.3rem;
+}
+.hodDescription{
+    margin-bottom: 3em;
+}
+@media (max-width:618px){
+    .hodImage h1,h2{
+        font-size: 0.9rem;
+    }
+    .hodContent{
+        font-size: 0.6rem;
+    }
+}

@@ -1,0 +1,133 @@
+body{
+    color: white;
+    box-sizing: border-box;
+}
+.caroseuel-body{
+    margin: 3% 0;
+}
+
+
+
+.caroseul-image{
+    border-radius: 7px;
+    height:25rem;
+    width:80%;
+    margin: auto;
+    
+}
+
+.activity-box{
+    
+    width: 100%;
+}
+
+.activity-card{
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2;
+    margin: 20px 0;
+}
+
+.image-container{
+    flex: 2;
+    height: 100%;
+    width: 100%;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+.text-container{
+    color: black;
+    margin-left: 5px;
+    flex: 5;
+    padding:10px;
+    height: 100%;
+    width: 100%;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+}
+.activity-image{
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.placed-students{
+    margin:20px 0;
+}
+
+.para{
+    margin-left: 3%;
+}
+
+.Naac-body{
+    width: 100%;
+    display: flex;
+    justify-content:space-around ;
+}
+
+.Naac-item{
+    display: block;
+    flex:4;
+    width:100%;
+}
+
+.Naac-individual{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.Naac-individual img {
+    width: 90%;
+    height:100%;
+}
+
+.Naac-Individual-center{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column  ;
+    padding: 10px;
+    position: relative;
+
+}
+.Naac-head{
+    position: relative;
+    top: 0;
+    margin:0 auto;
+}
+.college-name{
+    margin: 15px 0;
+}
+.text-content{
+    width: 100%;
+    text-align: center;
+}
+
+
+@media (max-width:618px){
+  
+    
+    .Naac-body .Naac-item:nth-child(odd)  {
+    display: none; 
+}
+.caroseul-image{
+    height:30vh;
+}
+
+    /* .Naac-Individual-center{
+        width:100vw;
+        
+    } */
+}

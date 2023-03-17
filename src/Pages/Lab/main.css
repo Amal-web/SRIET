@@ -1,0 +1,81 @@
+.child-card{
+    display: flex;
+    flex-direction: row;
+    padding: 2% 0;
+    gap:3%;
+
+
+}
+
+.lab-card{
+    flex: 2;
+    width: 100%;
+    /* width:250px;
+
+    height: 350px; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lab-card-text{
+    flex: 9;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.lab-cards-text{
+    flex: 9;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.parent-card div:nth-child(even)  {
+    flex-direction: row-reverse;
+}
+.card-text{
+    color:black
+}
+
+
+@media (max-width: 412px) {
+  .lab-card{
+      
+      flex: 3;
+      width: 100%;
+    }
+    .lab-card-text{
+        flex: 8;
+        width: 100%;
+    }
+    .chairman-message{
+    height: 90vh;
+}
+
+    
+}  
+
+/* IPAD SIZE DEVICES */
+@media (max-width: 768px) {
+     .lab-card{
+      
+      flex: 4;
+      width: 100%;
+    }
+    .lab-card-title{
+        margin-top: 10px;
+        font-size: small;
+    }
+    .lab-card-text{
+        flex: 6 ;
+        width: 100%;
+    }
+    .parent-card{
+        padding: 20px;
+    }
+
+}
