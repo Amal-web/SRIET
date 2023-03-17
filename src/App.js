@@ -10,6 +10,7 @@ import Footer from './components/Footer/Footer'
 import FacultyPage from './Pages/Faculty/Faculty';
 import MgPage from "./Pages/Lab/main1";
 import Error from './Pages/404/main'
+import Eventspage from "./Pages/Eventspage/EveMain"
 function App() {
   
 
@@ -22,12 +23,12 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="faculty" element={<FacultyPage />} />
         <Route path="activity" element={<ActivitiesPage />} />
-        <Route path="events" element={<ActivitiesPage />} />
+        <Route path="events" element={<Eventspage />} />
         <Route path="labs" element={<LabPage />} />
         <Route path='mg' element={<MgPage  />}/>
         <Route path='*' element={<Error/>}/>
       </Routes>
-      <Footer />
+      <Footer/>
     </div>
   );
 }
