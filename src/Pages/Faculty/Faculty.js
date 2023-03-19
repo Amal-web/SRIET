@@ -12,8 +12,9 @@ const Faculty = () => {
       <Hod/>
       <Professor/>
       <AssistantProfessor/>
-      <LabAssistant/>
       <PlacementFaculty/>
+      <LabAssistant/>
+      
       
     </div>
   );

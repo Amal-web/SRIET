@@ -8,6 +8,9 @@ import eve3 from "../../../src/photos/events/event3.jpg"
 import eve4 from "../../../src/photos/events/event4.jpg"
 import eve5 from "../../../src/photos/events/event5.jpg"
 import eve6 from "../../../src/photos/events/event6.jpg"
+import eve7 from "../../../src/photos/events/event7.jpg"
+import eve8 from "../../../src/photos/events/event8.jpg"
+import eve9 from "../../../src/photos/events/event9.jpg"
 
 
 
@@ -15,19 +18,19 @@ const DUMMY_DATA = [
   {
     image: eve1,
 
-    text: "NAAC event",
+    text:"Symposium 2023" ,
     title: "",
   },
   {
     image: eve2,
     title: "",
-    text: "Prize winners",
+    text:"Paper presentation" ,
   },
   {
     image: eve3,
 
     title: "",
-    text: "Event participants",
+    text: "Mind crusher",
   },
   {
     image:eve4,
@@ -47,6 +50,25 @@ const DUMMY_DATA = [
     title: "",
     text: "Project expo ",
   },
+  {
+    image:eve7,
+
+    title: "",
+    text: "NAAC event",
+  },
+  {
+    image:eve8,
+
+    title: "",
+    text: "Prize winners",
+  },
+  {
+    image:eve9,
+
+    title: "",
+    text: "Event participants",
+  },
+ 
 ];
 const EveCard = () => {
 

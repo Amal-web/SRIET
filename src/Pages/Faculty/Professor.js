@@ -14,7 +14,7 @@ const Professor = () => {
         />
         <div className={classes.names}>
           <h4>Dr.M.Meenakumari</h4>
-          <p>M.E (Ph.D)</p>
+          <p>M.E, Ph.D</p>
         </div>
       </div>
     </div>
