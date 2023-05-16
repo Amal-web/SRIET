@@ -13,7 +13,7 @@
   @media (max-width:620px){
     .video{
       padding: 1rem;
-      width: 397px;
+      width: 100vw;
       height:fit-content;
     
     }
