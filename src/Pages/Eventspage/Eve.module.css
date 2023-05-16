@@ -1,4 +1,7 @@
-
+.video{
+  width: 900px;
+  height:500px;
+}
 
 
 .eventPara p {
@@ -8,6 +11,12 @@
   }
   
   @media (max-width:620px){
+    .video{
+      padding: 1rem;
+      width: 397px;
+      height:fit-content;
+    
+    }
     .event{
     
       font-size: 0.85rem;

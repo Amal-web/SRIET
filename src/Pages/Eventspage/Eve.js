@@ -6,10 +6,9 @@ const Event = () => {
   return (
     <div className={classes.event}>
       <div className={classes.eventPara}>
-        <div style={{textAlign:"center"}}>
+        <div  style={{textAlign:"center"}}>
           <iframe
-            width="900"
-            height="500"
+            className={classes.video}
             src="https://www.youtube.com/embed/8TJHMehA47o?autoplay=1&mute=1"
             title="YouTube video player"
             frameborder="0"
